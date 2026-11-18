@@ -1,0 +1,15 @@
+{
+  "name": "jsonpeek",
+  "version": "0.1.0",
+  "stars": 1280,
+  "author": {
+    "name": "Ada Lovelace",
+    "email": "ada@example.com"
+  },
+  "users": [
+    { "id": 1, "name": "Alice", "role": "admin", "active": true },
+    { "id": 2, "name": "Bob", "role": "editor", "active": false },
+    { "id": 3, "name": "Chen Wei", "role": "viewer", "active": true }
+  ],
+  "a.b": { "c": "dotted" }
+}

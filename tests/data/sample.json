@@ -1,0 +1,21 @@
+{
+  "name": "jsonpeek",
+  "version": "0.1.0",
+  "stars": 1280,
+  "active": true,
+  "homepage": null,
+  "tags": ["json", "cli", "query"],
+  "author": {
+    "name": "Ada Lovelace",
+    "email": "ada@example.com",
+    "social": {"github": "ada", "mastodon": "@ada@example.social"}
+  },
+  "users": [
+    {"id": 1, "name": "Alice", "role": "admin", "active": true},
+    {"id": 2, "name": "Bob", "role": "editor", "active": false},
+    {"id": 3, "name": "Chen Wei", "role": "viewer", "active": true}
+  ],
+  "matrix": [[1, 2], [3, 4]],
+  "a.b": {"c": "dotted"},
+  "unicode": "数据"
+}
