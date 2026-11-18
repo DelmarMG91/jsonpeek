@@ -1,0 +1,9 @@
+{
+  "warehouse": "Shanghai-01",
+  "updated": "2026-11-18",
+  "items": [
+    { "sku": "KB-01", "name": "机械键盘", "qty": 42, "price": 399.0 },
+    { "sku": "MS-02", "name": "Wireless Mouse", "qty": 14, "price": 129.0 },
+    { "sku": "CB-03", "name": "USB-C Cable", "qty": 0, "price": 19.9 }
+  ]
+}

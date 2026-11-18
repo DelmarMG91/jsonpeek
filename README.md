@@ -5,11 +5,15 @@
 [![CI](https://github.com/DelmarMG91/jsonpeek/actions/workflows/ci.yml/badge.svg)](https://github.com/DelmarMG91/jsonpeek/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
-[![PyPI](https://img.shields.io/badge/pypi-v0.1.0-orange.svg)](https://pypi.org/project/jsonpeek/)
+[![PyPI](https://img.shields.io/badge/pypi-v0.1.1-orange.svg)](https://pypi.org/project/jsonpeek/)
 
 `jsonpeek` reads JSON from a file or standard input, evaluates a small path
 expression against it, and prints the result. No filter language, no DSL to
 learn, no dependencies to install — just paths.
+
+![jsonpeek demo](docs/demo.gif)
+
+*Animated walkthrough: single values, wildcards, stdin and `--raw`.*
 
 ```console
 $ jsonpeek 'users[*].name' examples/users.json
@@ -32,6 +36,12 @@ $ jsonpeek 'users[*].name' examples/users.json
 - **Tested.** 72 pytest cases across the tokenizer, evaluator, renderers and CLI.
 
 ## Install
+
+From PyPI:
+
+```console
+$ pip install jsonpeek
+```
 
 From a checkout:
 
@@ -198,6 +208,12 @@ Notes:
 `jq` is a full filter language and the right answer for complex transformations;
 `jsonpeek` trades that power for a grammar you can hold in your head and a
 dependency-free install that works on any Python 3.9+ machine.
+
+## Documentation
+
+- [docs/USAGE.md](docs/USAGE.md) — complete command-line reference.
+- [docs/QUERY.md](docs/QUERY.md) — the path-expression grammar and semantics.
+- [docs/EXAMPLES.md](docs/EXAMPLES.md) — task-oriented recipes.
 
 ## Development
 
